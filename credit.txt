@@ -1,0 +1,98 @@
+Based on this aniamtion ⬇️
+https://dribbble.com/shots/3265546-KTM-RC-390-Landing-page-Animation
+
+On Dribbble, kindly follow him. here is dribbble id = https://dribbble.com/divanrj
+
+I merely tried to recreate it. 
+
+
+
+
+------------ || write in an HTML file || ---------
+
+Ready to Cruise
+Relax and enjoy the ride
+
+Suzuki Hayabusa
+
+
+
+₹ 16.90 Lakh
+Learn More..
+
+
+Specifications
+  <dl>
+                <dt>Mileage (Overall)</dt>
+                <dd>17 kmpl</dd>
+      
+                <dt>Engine Type</dt>
+                <dd>4-Stroke, Liquid-cooled, DOHC,in-line fourh</dd>
+      
+                <dt>Max Power</dt>
+                <dd>190 PS @ 9700 rpm</dd>
+      
+                <dt>Front Brake</dt>
+                <dd>Double Disc</dd>
+      
+                <dt>Displacement</dt>
+                <dd>1340 cc</dd>
+      
+                <dt>No. of Cylinders</dt>
+                <dd>4</dd>
+      
+                <dt>Engine</dt>
+                <dd>Single cylinder 4-stroke -i-get</dd>
+   </dl>
+              <dl>
+                <dt>Max Torque</dt>
+                <dd>150 Nm @ 7000 rpm</dd>
+      
+                <dt>Rear Brake</dt>
+                <dd>Disc</dd>
+      
+                <dt>Body Type</dt>
+                <dd>Super Bikes</dd>
+      
+              </dl>
+
+
+Features
+<dl>
+                <dt>ABS</dt>
+                <dd>Dual Channel</dd>
+      
+                <dt>Riding Modes</dt>
+                <dd>Yes</dd>
+      
+                <dt>Traction Control</dt>
+                <dd>yes</dd>
+      
+                <dt>Cruise Control</dt>
+                <dd>Yes</dd>
+      
+                <dt>Launch Control</dt>
+                <dd>yes</dd>
+      
+                <dt>Power Modes</dt>
+                <dd>yes</dd>
+      
+                <dt>LED Tail Light</dt>
+                <dd>yes</dd>
+              </dl>
+              <dl>
+                <dt>Quick Shifter</dt>
+                <dd>yes</dd>
+      
+                <dt>LED Tail Light</dt>
+                <dd>yes</dd>
+      
+                <dt>Speedometer</dt>
+                <dd>Analogue</dd>
+      
+                <dt>Odometer</dt>
+                <dd>Digital</dd>
+      
+                <dt>Emission compliance</dt>
+                <dd>EPA, CARB, Transport Canada</dd>
+              </dl>

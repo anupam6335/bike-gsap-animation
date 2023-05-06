@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Bike Scorlling Gsap Animation</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+
+
+      <div class="wrapper" id="wrapper">
+
+
+        <div class="header">
+          <svg version="1.1" viewBox="0 0 24 24">
+            <line x1="12" y1="20" x2="12" y2="10"></line>
+            <line x1="18" y1="20" x2="18" y2="4"></line>
+            <line x1="6" y1="20" x2="6" y2="16"></line>
+          </svg>
+
+          <div>
+            <svg version="1.1" viewBox="0 0 24 24">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <svg version="1.1" viewBox="0 0 24 24">
+              <rect x="3" y="3" width="7" height="7"></rect>
+              <rect x="14" y="3" width="7" height="7"></rect>
+              <rect x="14" y="14" width="7" height="7"></rect>
+              <rect x="3" y="14" width="7" height="7"></rect>
+            </svg>
+          </div>
+
+        </div>
+
+
+
+        <div class="panel">
+
+          <div class="intro" id="intro">
+            <img id="logo" src="assets/logo.png" alt="piaggio logo svg" />
+            <h1 id="intro-h1">Ready to Cruise</h1>
+            <h3 id="intro-h3">Relax and enjoy the ride</h3>
+          </div>
+
+          <img id="haya" src="assets/Hayabusa.png" alt="Hayabusa png" />
+          <h1 id="panel-h1">Suzuki Hayabusa</h1>
+          <ul class="models">
+            <li>Hayabusa</li>
+            <li>Hayabusa</li>
+            <li>Hayabusa Sport</li>
+          </ul>
+
+
+          <div class="rotator">
+            <p>0&deg;</p>
+            <svg version="1.1" viewBox="0 0 10 30">
+              <path
+                d="M5 5.663V40"
+                fill="none"
+                stroke="#999"
+                stroke-width=".92"
+                transform="matrix(1 0 0 1.16492 0 -6.597)"
+              />
+              <circle
+                cx="7.423"
+                cy="7.159"
+                r="2.577"
+                fill="#fff"
+                transform="translate(-2.423 -4.582)"
+              />
+            </svg>
+            <p>360&deg;</p>
+          </div>
+
+
+          <div class="specs">
+            <h2>Specifications</h2>
+            <dl>
+              <dt>Mileage (Overall)</dt>
+              <dd>17 kmpl</dd>
+
+              <dt>Engine Type</dt>
+              <dd>4-Stroke, Liquid-cooled, DOHC,in-line fourh</dd>
+
+              <dt>Max Power</dt>
+              <dd>190 PS @ 9700 rpm</dd>
+
+              <dt>Front Brake</dt>
+              <dd>Double Disc</dd>
+
+              <dt>Displacement</dt>
+              <dd>1340 cc</dd>
+
+              <dt>No. of Cylinders</dt>
+              <dd>4</dd>
+
+              <dt>Engine</dt>
+              <dd>Single cylinder 4-stroke -i-get</dd>
+            </dl>
+            <dl>
+              <dt>Max Torque</dt>
+              <dd>150 Nm @ 7000 rpm</dd>
+
+              <dt>Rear Brake</dt>
+              <dd>Disc</dd>
+
+              <dt>Body Type</dt>
+              <dd>Super Bikes</dd>
+            </dl>
+          </div>
+
+
+          <div class="feature">
+            <h2>Features</h2>
+            <dl>
+              <dt>ABS</dt>
+              <dd>Dual Channel</dd>
+
+              <dt>Riding Modes</dt>
+              <dd>Yes</dd>
+
+              <dt>Traction Control</dt>
+              <dd>yes</dd>
+
+              <dt>Cruise Control</dt>
+              <dd>Yes</dd>
+
+              <dt>Launch Control</dt>
+              <dd>yes</dd>
+
+              <dt>Power Modes</dt>
+              <dd>yes</dd>
+
+              <dt>LED Tail Light</dt>
+              <dd>yes</dd>
+            </dl>
+            <dl>
+              <dt>Quick Shifter</dt>
+              <dd>yes</dd>
+
+              <dt>LED Tail Light</dt>
+              <dd>yes</dd>
+
+              <dt>Speedometer</dt>
+              <dd>Analogue</dd>
+
+              <dt>Odometer</dt>
+              <dd>Digital</dd>
+
+              <dt>Emission compliance</dt>
+              <dd>EPA, CARB, Transport Canada</dd>
+            </dl>
+          </div>
+
+
+          <div class="outro">
+            <h2>Suzuki Hayabusa</h2>
+            <p>₹ 16.90 Lakh</p>
+            <button>Learn More..</button>
+          </div>
+
+
+        </div>
+        <div class="bkg"></div>
+      </div>
+
+
+
+      <footer>
+        <p>
+          Based on this
+          <a
+            href="https://dribbble.com/shots/3265546-KTM-RC-390-Landing-page-Animation"
+            target="blank"
+            >Dribble</a
+          >
+          by
+          <a href="https://dribbble.com/divanraj" target="blank">Divan Raj</a>
+        </p>
+      </footer>
+
+
+      <svg version="1.1" id="mask">
+        <defs>
+          <clipPath id="wrapMask">
+            <rect id="wrapWin" width="1000" height="800" fill="black" />
+          </clipPath>
+        </defs>
+      </svg>
+
+      
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
